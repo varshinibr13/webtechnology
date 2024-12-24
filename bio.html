@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-Data - My Bio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<style>
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+section.hero h1 {
+    font-size: 3em;
+}
+
+section.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    margin-bottom: 30px;
+}
+
+.resume-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+/* Bio Table */
+table.bio-data {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table.bio-data td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table.bio-data td:first-child {
+    font-weight: bold;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="bio.html">Bio-Data</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Bio-Data</h2>
+        <table class="bio-data">
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td>Varshini B R</td>
+            </tr>
+            <tr>
+                <td><strong>Date of Birth:</strong></td>
+                <td>08/28/2004</td>
+            </tr>
+            <tr>
+                <td><strong>Contact:</strong></td>
+                <td>email@example.com</td>
+            </tr>
+            <tr>
+                <td><strong>Address:</strong></td>
+                <td>Vijayapura</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>Created with ❤️ by Varshini</p>
+    </footer>
+</body>
+</html>
